@@ -24,7 +24,11 @@ def serve_assets(filename):
 @app.route('/<path:path>')
 def catch_all(path):
     return send_from_directory("dist", "index.html")
-    
+
+@app.route("/alive")
+def alive():
+    return "Alive Successfully"
+
 @app.route('/signup', methods=['POST'])
 def signup():
     data = request.json
