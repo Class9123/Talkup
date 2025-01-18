@@ -3,7 +3,6 @@ import cloudinary.uploader
 import cloudinary.api
 import base64
 from io import BytesIO
-from PIL import Image
 from values import CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_SECRET_KEY
 
 # Cloudinary configuration
