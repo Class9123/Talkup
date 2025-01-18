@@ -15,10 +15,7 @@ Jinja2
 MarkupSafe
 requests
 gunicorn
-gevent
 nepali_datetime
 pymongo
 cloudinary
 python-dotenv
-pillow
-eventlet
