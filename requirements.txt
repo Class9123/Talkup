@@ -21,3 +21,4 @@ pymongo
 cloudinary
 python-dotenv
 pillow
+eventlet
