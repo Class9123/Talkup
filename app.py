@@ -1,5 +1,3 @@
-import eventlet
-eventlet.monkey_patch()
 
 from db import Mongodb
 from values import DEV_MONGO_URI, DB_NAME
