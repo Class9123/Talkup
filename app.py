@@ -282,6 +282,6 @@ def delete_account(credentials):
         
 
 if __name__ == '__main__':
-    sio.run(app, host="0.0.0.0", debug=True)
+    sio.run(app, host="0.0.0.0", debug=True ,allow_unsafe_werkzeug=True)
     # public fields = id, name, email, status
     # private fields = password, friends
